@@ -1,0 +1,80 @@
+# Home Assistant Configuration .gitignore
+
+# Sensitive files - NEVER commit these
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.pwd
+*.password
+secrets.yaml
+.secrets
+*.env
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Home Assistant specific
+.storage/
+*.storage
+*.backup
+*.tar.gz
+*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Backup files
+backups/
+*.backup
+*.bak
+
+# SSL certificates
+ssl/
+certificates/
+*.crt
+*.key
+*.pem
+
+# Environment variables
+.env
+.env.local
+.env.production
