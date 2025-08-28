@@ -1,0 +1,10 @@
+# Home Assistant Scripts Configuration
+# Add your custom scripts here
+
+# Example script structure:
+# script_name:
+#   alias: "Script Display Name"
+#   sequence:
+#     - service: service.name
+#       data:
+#         entity_id: entity.id
