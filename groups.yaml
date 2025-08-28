@@ -1,0 +1,10 @@
+# Home Assistant Groups Configuration
+# Add your custom groups here
+
+# Example group structure:
+# group_name:
+#   name: "Group Display Name"
+#   entities:
+#     - light.living_room
+#     - light.dining_room
+#     - light.kitchen
