@@ -1,0 +1,11 @@
+# Home Assistant Scenes Configuration
+# Add your custom scenes here
+
+# Example scene structure:
+# scene_name:
+#   name: "Scene Display Name"
+#   entities:
+#     light.living_room:
+#       state: on
+#       brightness: 255
+#       rgb_color: [255, 100, 100]
