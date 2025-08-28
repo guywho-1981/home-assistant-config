@@ -1,0 +1,30 @@
+- id: '1752925297882'
+  alias: Automatic Backups
+  description: ''
+  use_blueprint:
+    path: jcwillox/automatic_backups.yaml
+    input:
+      encrypted: true
+- id: '1753084340159'
+  alias: New automat
+  description: ''
+  triggers:
+  - trigger: time
+    at: 06:00:00
+  - type: turned_on
+    device_id: bebebbd9e76f35af0f28f8179b9d5b5d
+    entity_id: 55cce2a617056b8f971e6da73a7318f2
+    domain: light
+    trigger: device
+    for:
+      hours: 6
+      minutes: 0
+      seconds: 0
+  conditions:
+  - condition: device
+    type: is_off
+    device_id: 619d1b1af8e71d59dd1515e5f8d56949
+    entity_id: f9da66f6df4d621a70a50c892a3dfb88
+    domain: light
+  actions: []
+  mode: single
